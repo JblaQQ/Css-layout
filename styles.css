@@ -1,0 +1,354 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    
+}
+ul{
+    display:flex;
+    list-style: none;
+    align-content:center;
+}
+li{
+    margin-right:20px;
+    }
+.container a{
+            display: flex;
+}
+img{
+    width: 200px;
+    
+}
+.header{
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+}
+       
+
+#logo{
+    width: 30px;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pl{
+color: rgb(87, 187, 154);
+font-size: 40px;
+}
+
+.paragraphs{
+            display: flex;
+            justify-content: space-around;
+            font-size: large;
+}
+.paragraph{
+    text-align:justify;
+    margin-left: 100px;
+    margin-right: 50px;
+ }
+.paragraphx{
+    margin-right: 50px;
+    margin-right: 100px;
+    text-align:justify;
+}
+
+/*.container a{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 30px;
+    }*/
+#patients{
+        background-color:rgb(92, 205, 178);
+        border-radius: 10px;
+        margin: 50px;
+        justify-content: center;
+        margin-left: 200px;
+        padding: 20px;
+     }
+#doctors{
+        background-color:rgb(61, 131, 222);
+        border-radius: 10px;
+        margin: 50px;
+        margin-left: 40px;
+        padding: 20px;
+}
+#clinics{
+        background-color:rgb(27, 39, 52);
+        border-radius: 10px;
+        margin: 50px;
+        margin-right: 100px;
+        padding: 20px;
+     }
+
+     .pa{
+        color: white;
+        font-size: 30px;
+        }
+     .ha{
+        color: white;
+        }
+     .hb{
+        color: white;
+        text-decoration: underline;
+        font-size: 20px;
+        }
+     .imga{
+        width: 30px;
+        height: 30px;
+           }
+    
+     .logos{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        width: 70%;
+     }   
+     
+     .left{
+font-size: 32px;
+color: #00C3A5;
+width: 30%;
+
+     }
+           
+      .right{
+        display: grid;
+        width: 50%;
+        grid: auto/ auto auto auto auto;
+        grid-gap: 50px;
+        padding: 10px;
+        align-items: center;
+      }
+
+
+      .imgy{
+        width: 100px;
+      }
+
+      .section{
+display: flex;
+background-color: rgb(208,250,244);
+      }
+      .cards{
+display: flex;
+
+gap: 20px;
+      }
+      .crop{
+        width: 500px;
+        height: 400px;
+        margin-bottom: 0%;
+        margin-top: 100px;
+      }
+      .croph2{
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 30px;
+        
+      }
+      
+      .imge{
+        width: 35px;
+           }
+.platform{
+    padding: 50px;
+    align-content: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+      .platform1{
+                 background-color: white;
+                 width: 200px;
+                 height: 200px;
+                 margin-top: 50px;
+                 margin-bottom: 10px;
+                 padding:30px ;
+                }
+      .platform2{
+                background-color: white;
+                width: 200px;
+                height: 200px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding:30px ;
+                }
+      .platform3{
+                 background-color: white;
+                 width: 200px;
+                height: 200px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding:30px ;
+                align-content: center;
+                }
+      .platform4{
+                background-color: white;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 200px;
+                height: 200px;
+                padding:30px ;
+                justify-content: center;
+
+                
+                }
+      .croph2{
+                    color:rgb(95,188,189);
+                   
+                } ;
+      .cardsA{
+width:20px;
+height: 70px;
+size: 50px;
+justify-content: space-around;
+margin-right: 60px;
+            }  
+     .cardsB{
+margin-left: 30px;
+            }  
+         #country{
+            font-size: 13px;
+         }   
+.paragraph4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pg4{
+
+color:rgb(90,194,208) ;
+font-size: 20px;
+align-items: center;
+}
+.pg4a{
+align-self: center;
+}
+
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+.warsaw{
+width: 300px;
+height: 300px;
+margin-right: 20px;
+margin-left: 150px;
+}
+.barcelona{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+    }
+
+.munich{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+.instabul{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+.rome{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+.bologna{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+.curitiba{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+.janeiro{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+.warsaw{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+.mexico{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+margin-left: 50px;
+}
+button{
+    color:white;
+    background-color:rgb(61, 131, 222);
+    height: 40px;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 150px;
+}
+.warsaw2{
+align-self: auto;
+margin-left: 50px;
+}
+.warsaw3{
+justify-self: 50px;
+margin-left: 220px;
+margin-bottom: 10px;
+ }
+
+ .sectionj{
+    display: flex;
+    flex-direction: column;
+
+    .sectionj1{
+        align-self: center;
+        margin-top: 150px;
+        font-weight: lighter;
+        font-size: 40px;
+    }
+   
+ }
+ #buttons{
+    width: 280px;
+    align-self: center;
+ }
+
+ .footer{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.footer1{
+  align-self: center;  
+  margin-bottom: 1px;
+}
+.footer2{
+align-self: center;
+margin-bottom: 1px;
+
+}
+.footer3{
+ margin-top: 1px;   
+align-self: center;
+}
