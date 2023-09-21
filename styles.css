@@ -39,18 +39,21 @@ font-size: 40px;
 
 .paragraphs{
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            align-content: center;
             font-size: large;
 }
 .paragraph{
     text-align:justify;
     margin-left: 100px;
     margin-right: 50px;
+    max-width: 400px;
  }
 .paragraphx{
     margin-right: 50px;
     margin-right: 100px;
     text-align:justify;
+     max-width: 400px;
 }
 
 /*.container a{
